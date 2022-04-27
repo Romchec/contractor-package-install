@@ -1,0 +1,6 @@
+[Contractor Entry]
+Name=Install package
+Icon=application-vnd.debian.binary-package
+Description=Install .deb package using APT.
+MimeType=application/x-deb;application/vnd.debian.binary-package;
+Exec=io.elementary.terminal --execute="pkexec apt install %F"
