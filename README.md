@@ -6,11 +6,11 @@ Type commands below in your terminal to download and copy`debinstall.contract` f
 
 For current user only:
 ```sh
-wget https://github.com/Romchec/contractor-deb-install/blob/4f1d2883597301072b646e63bccd9055c3d00f69/debinstall.contract && mv ./debinstall.contract ~/.local/share/contractor/
+wget https://raw.githubusercontent.com/Romchec/contractor-deb-install/main/debinstall.contract && mv ./debinstall.contract ~/.local/share/contractor/
 ```
 For all users(don't forget to give permission to move file to root directory):
 ```sh
-wget https://github.com/Romchec/contractor-deb-install/blob/4f1d2883597301072b646e63bccd9055c3d00f69/debinstall.contract && sudo mv ./debinstall.contract /usr/share/contractor/
+wget https://raw.githubusercontent.com/Romchec/contractor-deb-install/main/debinstall.contract && sudo mv ./debinstall.contract /usr/share/contractor/
 ```
 
 After that relogin to your user and try it.
