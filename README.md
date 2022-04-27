@@ -17,5 +17,5 @@ After that relogin to your user and try it.
 
 ## Usage
 
-Click on .deb file with right-mouse button and click "Install package". It will ask for your password, then open terminal with APT package manager, which will tell you about package, show you dependencies and ask you to confirm installation.
+Click on .deb file with right-mouse button and click "Install package". After typing your password, APT package manager will be opened in terminal, where you can learn some information about package, it's dependencies and it will ask you to confirm installation.
 ![showcase](showcase.gif)
