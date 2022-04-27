@@ -1,6 +1,6 @@
 # Contractor file to install .deb packages
 ## Installation
-Download and copy`debintstall.contract` file to one of this directories: 
+Download and copy`debinstall.contract` file to one of this directories: 
 `~/.local/share/contractor/` for your user only.
 `/usr/share/contractor/` for all users.
 After that relogin to your user and try it.
