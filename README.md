@@ -16,7 +16,7 @@ sudo mkdir -p /usr/share/contractor && wget https://raw.githubusercontent.com/Ro
 After that relogin to your user and try it.
 
 ### Uninstall
-You can remove contractor file manually by typing command below in your terminal:
+You can remove contractor file by typing command below in your terminal:
 ```
 sudo rm -f /usr/share/contractor/debinstall.contract .local/share/contractor/debinstall.contract 
 ```
