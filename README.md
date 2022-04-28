@@ -15,6 +15,12 @@ sudo mkdir -p /usr/share/contractor && wget https://raw.githubusercontent.com/Ro
 
 After that relogin to your user and try it.
 
+### Uninstall
+You can remove contractor file manually by typing command below in your terminal:
+```
+sudo rm -f /usr/share/contractor/debinstall.contract .local/share/contractor/debinstall.contract 
+```
+
 ## Usage
 
 Click on .deb file with right-mouse button and click "Install package". After typing your password, APT package manager will be opened in terminal, where you can learn some information about package, it's dependencies and it will ask you to confirm installation.
