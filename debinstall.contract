@@ -5,4 +5,4 @@ Icon=application-vnd.debian.binary-package
 Description=Install .deb package using APT.
 Description[de]=.deb-Pakete mit APT installieren
 MimeType=application/x-deb;application/vnd.debian.binary-package;
-Exec=io.elementary.terminal --execute="pkexec apt install %F"
+Exec=io.elementary.terminal -n --execute="pkexec apt install %F"
